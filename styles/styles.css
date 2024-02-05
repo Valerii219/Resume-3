@@ -57,6 +57,11 @@ ol {
   color: hsl(246, 67%, 29%);
   margin: 0;
 }
+.text{
+  font-size: 16px;
+  line-height: calc(24/16);
+  font-weight: 500;
+}
 
 .about_description {
   font-style: normal;
@@ -139,6 +144,7 @@ ol {
 }
 .work {
   margin-left: 20px;
+  margin-bottom: 14px;
 }
 .period {
   font-style: normal;
@@ -189,6 +195,7 @@ ol {
 .education {
   margin-top: 5px;
 }
+
 
 .education_position {
   font-style: normal;
