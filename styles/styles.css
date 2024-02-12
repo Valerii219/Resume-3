@@ -313,19 +313,29 @@ h3 {
   padding: 0;
   /* flex-direction:column; */
   justify-content: space-around;
-
 }
 
 .soft_skills_item {
   color: rgb(10, 50, 10);
   margin-bottom: 14px;
-  text-decoration: none;}
+  text-decoration: none;
+}
 
 .soft_skills_text {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+}
+
+.certifications {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+.certifications-text{
+  margin-top: 5px;
 }
 .languages {
   margin-top: 20px;
