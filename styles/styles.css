@@ -13,13 +13,10 @@ ol {
   padding: 0;
 }
 li {
-  list-style-type: disc; /* Змінюємо тип маркера */
+  list-style-type: none; /* Змінюємо тип маркера */
 }
 
-li::marker {
-  content: "- "; /* Замінюємо круг на риску */
-  font-weight: bold;
-}
+
 .resume {
   display: flex;
   flex-direction: column;
