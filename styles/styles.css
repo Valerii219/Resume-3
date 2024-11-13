@@ -1,6 +1,6 @@
 body {
   /* Стилі для body */
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   letter-spacing: 0.02em;
   color: black;
   background-color: #ffffff;
@@ -334,9 +334,18 @@ h3 {
   gap: 5px;
   align-items: center;
 }
-.certifications-text{
+.certifications-text {
   margin-top: 5px;
 }
 .languages {
   margin-top: 20px;
+}
+.languages_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.certifications_list {
+  display: flex;
+  justify-content: space-around;
 }
