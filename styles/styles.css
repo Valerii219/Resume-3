@@ -358,8 +358,17 @@ h3 {
 .together{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .institute{
   margin: 5px 0 0 0;
+}
+h4{
+  margin: 0;
+  margin-top: 10px;
+}
+.company_name{
+  margin: 0;
+  margin-bottom: 10px;
 }
