@@ -1,10 +1,12 @@
 body {
-  /* Стилі для body */
   font-family: 'Merriweather', serif;
   letter-spacing: 0.02em;
   color: black;
   background-color: #ffffff;
   margin: 0;
+
+  font-size: 21.5px; /* ⬅️ збільшили базовий шрифт */
+  line-height: 2.1;
 }
 
 ul,
