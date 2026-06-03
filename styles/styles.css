@@ -50,3 +50,16 @@ html {
 .soft_skills_text {
   font-size: 0.95rem;
 }
+.new{
+  list-style: none;
+}
+.paragraf_without{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+h4, h3, h2, h1{
+  margin: 5px 0 5px 0 ;
+}
+.posada{
+  color: rgb(28, 120, 240)
+}
