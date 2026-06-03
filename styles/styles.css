@@ -83,3 +83,6 @@ li {
 .posada {
   color: rgb(28, 120, 240);
 }
+li{
+  list-style: none;
+}
