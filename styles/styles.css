@@ -1,7 +1,33 @@
 html {
   font-size: 22px;
+  line-height: 1.5;
 }
-/* MAIN TEXT */
+
+/* GLOBAL SPACING SYSTEM */
+section {
+  margin-bottom: 28px;
+}
+
+h1, h2, h3, h4 {
+  margin: 8px 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 6px 0;
+}
+
+/* LISTS */
+ul {
+  margin: 8px 0 12px 20px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+/* MAIN TYPOGRAPHY */
 .education_position,
 .work_position,
 .project_item {
@@ -31,6 +57,8 @@ html {
   font-size: 1.1rem;
   line-height: 1.7;
 }
+
+/* SIDE BAR (якщо використовуєш) */
 .sidebard {
   width: 380px;
   background: #1f2937;
@@ -38,28 +66,20 @@ html {
   padding: 40px 30px;
 }
 
-.sidebard_title {
-  font-size: 1.2rem;
-}
-
+/* LINKS */
 .contact_link {
   font-size: 1rem;
 }
 
-.tech_skills_text,
-.soft_skills_text {
-  font-size: 0.95rem;
-}
-.new{
+/* UTILITIES */
+.new {
   list-style: none;
 }
-.paragraf_without{
-  margin-top: 5px;
-  margin-bottom: 5px;
+
+.paragraf_without {
+  margin: 4px 0;
 }
-h4, h3, h2, h1{
-  margin: 5px 0 5px 0 ;
-}
-.posada{
-  color: rgb(28, 120, 240)
+
+.posada {
+  color: rgb(28, 120, 240);
 }
