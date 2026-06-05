@@ -23,9 +23,6 @@ ul {
   padding: 0;
 }
 
-li {
-  margin-bottom: 4px;
-}
 
 /* MAIN TYPOGRAPHY */
 .education_position,
@@ -88,8 +85,7 @@ li{
 }
 
 .style_with{
-  list-style:circle;
-  margin-bottom: 2px;
+  list-style:disc;
 }
 .summary{
   font-size: 22px;
