@@ -86,7 +86,7 @@ li{
 
 .style_with{
   list-style:disc;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 
 }
 .summary{
@@ -94,5 +94,5 @@ li{
   line-height: 1.4;
 }
 section{
-  margin-bottom: 27px;
+  margin-bottom: 24px;
 }
