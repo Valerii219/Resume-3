@@ -86,8 +86,12 @@ li{
 
 .style_with{
   list-style:disc;
+
 }
 .summary{
   font-size: 22px;
   line-height: 1.4;
+}
+section{
+  margin-bottom: 25px;
 }
